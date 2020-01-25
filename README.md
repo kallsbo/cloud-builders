@@ -5,7 +5,7 @@ Google Cloud build Docker containers to be used in your build chain. Check each 
 ### Builders
 
 ##### replace-in-file
-Used for replacing ext values in files during the build.
+Used for replacing text values in files during the build.
 
 ##### uglify-js-folder
 Used for minifying an entire folder of JS files.
