@@ -4,9 +4,9 @@ Google Cloud build Docker containers to be used in your build chain. Check each 
 
 ### Builders
 
-Name | Type | Description
------|------|------------
-[firebase_node](https://github.com/kallsbo/cloud-builders/tree/master/firebase_node) | Unit-test & deploy | NPM, JRE and Firebase tools to be used for unit-testing and deploy to Firebase
+Name | Type | Description | Additional info
+-----|------|-------------|----------------
+[firebase_node](https://github.com/kallsbo/cloud-builders/tree/master/firebase_node) | Unit-test & deploy | NPM, JRE and Firebase tools to be used for unit-testing and deploy to Firebase | https://hackviking.com/2020/11/10/firebase-unit-testing-firestore-rules/
 [replace-in-file](https://github.com/kallsbo/cloud-builders/tree/master/replace-in-file) | Code manipulation | Used for replacing text values in files during the build.
 [uglify-js-folder](https://github.com/kallsbo/cloud-builders/tree/master/uglify-js-folder) | Code manipulation | Used for minifying an entire folder of JS files.
 [uglify-js](https://github.com/kallsbo/cloud-builders/tree/master/uglify-js) | Code manipulation | Used for minifying a single JS file.
