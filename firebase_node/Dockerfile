@@ -1,4 +1,4 @@
-ARG NODE_VERSION=current-alpine3.10
+ARG NODE_VERSION=current-alpine3.15
 FROM node:${NODE_VERSION}
 
 RUN apk add openjdk11
