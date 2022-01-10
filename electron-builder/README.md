@@ -31,6 +31,8 @@ First step is to install all the dependencies with **npm install**. The node con
 Second step executes the **electron-builder**, in this example to build a Linux deb packages for armv7l architecture on the Raspberry Pi.
 You can use any arguments supported by **electron-builder**, see the [Command Line Interface CLI](https://www.electron.build/cli) specifications for more information.
 This is only tested for building native Linux images, don't know if it will build windows installers etc.
+
+The artifact can be uploaded to any storage bucket you like. In this example I created an additional folder in the projects artifact bucket and added them there.
 ```
 steps:
 - name: node
