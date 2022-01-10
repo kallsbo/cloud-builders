@@ -12,7 +12,7 @@ Name | Type | Description | Additional info
 [uglify-js-folder](https://github.com/kallsbo/cloud-builders/tree/master/uglify-js-folder) | Code manipulation | Used for minifying an entire folder of JS files.
 [uglify-js](https://github.com/kallsbo/cloud-builders/tree/master/uglify-js) | Code manipulation | Used for minifying a single JS file.
 
-### Build containers
+### Build container images
 Of course you can build the containers locally to test. With the commands below they will be available via the gcr.io namespace to be used in your build chains.  
 
 __Clone the repository:__
